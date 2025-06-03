@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="containerr" class="box">
+    
+        <header>
+            
+            <div class="mike">
+                <a href="home.html" class="a_onMike"><img class="onMike" src="images/OnMike.png" alt=""><h1 class="h1_onMike">Mike.Me</h1></a>
+            </div>
+            
+            <!-- <div class="tab-menu"> -->
+                <div>
+                    <!-- Add a menu button for small screen sizes -->
+                    <button id="menubutton" class="menu-button" onclick="toggleMenu()">
+                        <img class="menu_btn" src="images/menu.png" alt="">
+                    </button>
+
+                    <!-- Menu list that will toggle visibility -->
+                    <ul id="menuList" class="menu-list">
+                       <h5><li><a href="home.html">HOME</a></li></h5>
+                        <h5><li><a href="about.html">ABOUT</a></li></h5>
+                        <h5><li><a href="portfolio.html">PORTFOLIO</a></li></h5>
+                        <h5><li><a href="">CV</a></li></h5>
+                        <h5><li><a href="Contact.html">CONTACT</a></li></h5>
+                    </ul>
+                </div>
+            <!-- </div> -->
+            
+        </header>
+        <section>
+            <div class="section_content">
+                <div class="content">
+                    <h6 class="h6_home">Hello, Welcome</h6>
+                    <h1 class="h1_home">I'm Mike Charles</h1>
+                    <p class="p_home">
+                        A web designer <br>
+                        A UI/UX designer <br>
+                        A graphics designer <br>
+                    </p>
+                    <button onclick="location.href='mailto:mikecharlesmin@gmail.com?subject=Subject&body=Message'" class="hire_btn">HIRE ME</button>
+                </div>
+                <div>
+                    <img class="prof_pic" src="images/MyPic.png" alt="">
+                </div>
+            </div>
+        </section>
+        <footer>
+
+        </footer>
+    </div>
+    <!-- JavaScript to toggle the menu visibility -->
+    <script src="drop.js"></script>
+</body>
+</html>

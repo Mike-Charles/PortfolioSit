@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+
+</head>
+<body>
+    <header>
+            
+        <div class="mike">
+            <a href="home.html" class="a_onMike"><img class="onMike" src="images/OnMike.png" alt=""><h1 class="h1_onMike">Mike.Me</h1></a>
+        </div>
+        
+        <!-- <div class="tab-menu"> -->
+            <div>
+                <!-- Add a menu button for small screen sizes -->
+                <button id="menubutton" class="menu-button" onclick="toggleMenu()">
+                    <img class="menu_btn" src="images/menu.png" alt="">
+                </button>
+
+                <!-- Menu list that will toggle visibility -->
+                <ul id="menuList" class="menu-list">
+                   <h5><li><a href="home.html">HOME</a></li></h5>
+                    <h5><li><a href="about.html">ABOUT</a></li></h5>
+                    <h5><li><a href="portfolio.html">PORTFOLIO</a></li></h5>
+                    <h5><li><a href="">CV</a></li></h5>
+                    <h5><li><a href="Contact.html">CONTACT</a></li></h5>
+                </ul>
+            </div>
+            <!-- <div>
+                <button id="menubutton" class="menu"><img class="menu_btn" src="images/menu.png" alt=""></button>
+            </div> -->
+        <!-- </div> -->
+        
+    </header>
+    <section>
+        <div class="section_content_portfolio">
+            <div>
+                <h1 class="h1_portfolio">My Work</h1>
+                <div class="container">
+                    <p class="descript_w1">The latest adverts I use to advertise what I design and more.</p>
+                    <div class="w1">
+                        <img class="d1" src="work_images/descent.jpg" alt="">
+                        <img class="d2" src="work_images/descent3.jpg" alt="">
+                        <img class="d3" src="work_images/descent2.jpg" alt="">
+                        <img class="d4" src="work_images/descent4.png" alt="">
+                    </div>
+                    <div class="w2_color">
+                        <p class="descript_w2">Some of the service and work donen and more.</p>
+                        <div class="w2">
+                            <img class="wd1" src="work_images/DC production 2.jpg" alt="">
+                            <img class="wd2" src="work_images/dentle.png.jpg" alt="">
+                            <img class="wd3" src="work_images/BarlozLoan.jpg" alt="">
+                            <img class="wd4" src="work_images/night of wonders.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Lightbox Container -->
+    <div id="lightbox" class="lightbox">
+        <span class="close">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+    </div>
+
+    <script src="drop.js"></script>
+</body>
+</html>
